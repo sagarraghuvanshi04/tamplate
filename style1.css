@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 10px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+#nav #part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+#part2 h4{
+    font-size: 13px;
+    font-weight: 400;
+    padding: 2px 13px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+#part2 h4:nth-last-child(1){
+    background-color: aqua;
+}
+#center{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#elem1{
+    width: 36%;
+    height: 100%;
+    background-color: rgb(225, 225, 53);
+    border-radius: 15px;
+}
+#elem1 h1{
+    color: black;
+    font-size: 42px;
+    width: 50%;
+    line-height: 40px;
+    margin-left: 5px;
+}
+#elem1 img{
+    position: relative;
+    transform: translate(-50%,-50%);
+}
+#elem1 p{
+    font-size: 13px;
+    font-weight: 200;
+    color: black;
+    margin-top: 45%;
+    margin-left: 5px;
+}
+
+
+#elem2{
+    width: 32%;
+    height: 100%;
+    
+    border-radius: 15px;
+}
+#elem2 #elem2-top{
+    width: 100%;
+    height: 49%;
+    background-color: rgb(51, 191, 191);
+    border-radius: 15px;
+    margin-bottom: 2.5%;
+}
+#elem2-top h2{
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+    padding: 5px 10px;
+}
+#elem2-top p{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+    margin-top: 5px;
+}
+#elem2-top h1{
+    font-weight: 100;
+    font-size: 10px;
+    color: black;
+    margin-left: 80%;
+    margin-top: 6%;
+}
+#elem2 #elem2-bottom{
+    height: 49%;
+    width: 100%;
+    background-color: rgb(182, 137, 144);
+    border-radius: 15px;
+}
+#elem2-bottom button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#elem2-bottom p{
+    color: black;
+    width: 60%;
+    font-size: 20px;
+    padding: 8px;
+    font-weight: 600;
+}
+#elem3{
+    width: 31%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+#elem3-image{
+    height: 60%;
+    width: 100%;
+    background-color: red;
+    border-radius: 20px;
+    background-image: url(https://images.unsplash.com/photo-1712146545492-3a4435277ed2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+}
+#elem3-image h1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(237, 223, 223, 0.022);
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+    margin-top: 7px;
+    margin-top: 15px;
+    border-bottom: 2px solid #666;
+}
+.section h3{
+    font-size: 15px;
+    color: black;
+}
+.section:nth-last-child(1){
+    border-bottom: none;
+}
+.section h3 span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #666;
+}
+.section i{
+    font-size: 10px;
+    font-weight: 400;
+    color: #666;
+}
+#bottom{
+    margin-top: 20px;
+    background-color: red;
+}
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #555;
+    padding: 10px 0;
+    margin-top: 12px;
+    margin-bottom: 9px;
+}
+.product-name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.product-dets{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.product-name h1{
+    font-size: 20px;
+    font-weight: 200;
+    margin-left: 2px;
+}
+.product-name h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.product-name h5{
+    font-size: 15px;
+    font-weight: 400;
+    color: #555;
+}
+.product-dets h5{
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-size: 10px;
+    font-weight: 300;
+}
